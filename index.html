@@ -1,0 +1,189 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <title>facebox</title>  <script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script> <style type="text/css">  .dark
+ {
+
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+
+}#fbb
+ {     position: absolute;
+ top: 100px;
+ margin:70px;
+ font-size:50px;}
+
+.fb
+ {   color:#2424FF;
+ font-size:35px;  /*35*/
+ font-family: "Comic Sans MS", cursive, sans-serif;}
+
+ .b1
+ {   color:black;
+ font-size: 20px;/*20*/
+ font-family: Arial, Helvetica, sans-serif;
+
+}
+#box
+ {    white-space: pre-line;
+ text-align:center;
+
+ padding: 40px  ;
+             width:500;
+   position: absolute;
+ top: 50%;
+ left:70%;
+  transform: translate(-50%,-50%);
+   border-radius: 35px;
+   box-shadow: 12px 7px 27px #000000;
+
+}
+.e,.p
+ {   padding: 10px;
+ border:1px solid gray;
+  border-radius: 4px;
+
+
+}
+a
+ {  text-decoration: none;
+ color:#555555;
+}
+a:hover
+ { text-decoration: underline;
+ color: #f44336;}
+
+
+.na
+ {  padding:10px; border-radius: 4px;     border-color:#4CAF50;
+ padding-left:15px; padding-right:15px;
+ background-color:#4CAF50;
+ color:white;
+
+  }
+.b:hover
+ { background-color:#007399;  }
+.na:hover
+  {  background-color:#449C47;
+
+}
+.e:hover
+ {  border:1px solid #5C5CFF;
+}.p:hover
+ {  border:1px solid #5C5CFF;
+}
+.b
+ {padding:10px; border-radius: 4px;     border-color:#008CBA;
+ padding-left:15px; padding-right:15px;
+ background-color:#008CBA;
+ color:white;
+}
+
+ .switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+</head>
+
+<body  onselectstart="return false">
+   <div id="fbb"
+       <p class="fb"><label ><b>facebox</b></label><br>
+        <p class="b1">
+<b>Recent Logins </b> <br>Click your picture or add an account. </p></div>
+<div id=box >
+      <input class=e type="text" placeholder="Email or phone number "  >  <br>
+      <input class="p" type="password" placeholder="Password" />   <br>
+      <input class="b" type="submit" value="log in" />     <br>
+      <a href="forgetp.html">Forget password ?</a>    <hr>
+      <input class="na" type="button" value="create new account"/>
+
+
+</div>
+
+<label class="switch">
+  <input type="checkbox" class=dark onclick="myFunction()">
+  <span class="slider round"></span>
+</label>
+</body>
+
+</html>
