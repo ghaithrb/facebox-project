@@ -4,11 +4,13 @@ Facebox is a simple, responsive authentication interface built with HTML, CSS, a
 
 ## 🔗 Live Website
 
-[Visit the live website](https://ghaith-riabi.netlify.app)
+[Enhanced 2026 ](https://facebox-project.vercel.app)
+
+[legacy 2020](https://ghaith-riabi.netlify.app)
 
 ## 📷 Preview
 
-![Preview](assets/preview.png)
+![Preview](assets/preview1.png)
 
 ## Changes From the Old Version to the New Version
 
